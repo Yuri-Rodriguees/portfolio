@@ -14,7 +14,7 @@
     --bg-color: #000000;
     --second-bg-color: #111111;
     --text-color: #fff;
-    --main-color: #00ffd5;
+    --main-color: #d8e619;
 }
 
 html {
@@ -313,7 +313,7 @@ span {
     cursor: pointer;
 }
 
-.box .row-icon i {
+.box .row-icon a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -375,7 +375,7 @@ span {
 
 .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
     align-items: center;
     gap: 2.3rem;
     margin-top: 4.2rem;
@@ -410,7 +410,7 @@ span {
     color: var(--text-color);
 }
 
-.row i {
+.row a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
